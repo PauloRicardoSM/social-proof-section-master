@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  width: 60%;
+  margin: auto;
+  font-size: 2.1em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-bottom: auto;
+}
+
+p {
+  color: hsl(333, 80%, 67%);
+  width: 88%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  line-height: 130%;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardPeople {
+  background-color:  hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.cardPeople img{
+  border-radius: 50px;
+  margin-right: 5%;
+}
+
+.cardPeople p {
+  color: hsl(0, 0%, 100%);
+  margin: 2% auto 0% 0%;
+  text-align: left;
+}
+
+.titlePerfil {
+  display: flex;
+}
+
+.h22 {
+  margin-top: 6%;
+  color: hsl(303, 10%, 53%);
+}
+
+.stars {
+  background-color: hsl(300, 24%, 96%);
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.stars p{
+  color: hsl(300, 43%, 22%);
+  margin: auto;
+  margin-top: 2%;
+  font-weight: 700;
+}
+
+div#interface {
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

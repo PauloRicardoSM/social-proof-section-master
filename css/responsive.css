@@ -1,0 +1,79 @@
+@media(min-width: 769px) {
+    .attribution {
+        font-size: 1em;
+    } 
+}
+
+@media(min-width: 1440px) {
+    body {
+        padding: 3% 5% 3% 5%;
+    }
+
+    div#top {
+        display: flex;
+    }
+
+    #intro {
+        text-align: left;
+    }
+
+    #intro p{
+        margin: 2% 0% 0% 0%;
+        width: 45%;
+    }
+
+    #top h1 {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 30%;
+        font-size: 2.8em;
+    }
+
+    div#areaStars {
+        margin-top: -2%;
+        margin-left: -36%;
+    }
+
+    .stars {
+        width: 130%;
+        display: flex;
+        place-items: center;
+    }
+
+    .stars p {
+        width: 70%;
+    }
+
+    #star2 {
+        margin-left: 20%;
+    }
+
+    #star3 {
+        margin-left: 40%;
+    }
+
+    div#areaPeople {
+        display: flex;
+        gap: 3%;
+        place-items: center;
+        margin-top: 0%;
+    }
+
+    .cardPeople {
+        width: 35%;
+        padding: 2%;
+    }
+
+    .cardPeople p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    #perfil2 {
+        margin-top: 5%;
+    }
+
+    #perfil3 {
+        margin-top: 10%;
+    }
+}
